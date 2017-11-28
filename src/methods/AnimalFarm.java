@@ -15,10 +15,10 @@ public class AnimalFarm {
 
 AnimalFarm() {
 	/*
-	 * 1. Ask the user which animal they want, then play the sound of that
-	 * animal.
+	  1. Ask the user which animal they want, then play the sound of that
+	  animal.
 	 */
-
+String animal = JOptionPane.showInputDialog("Which animal's sound would you like?");
 	/* 2. Make it so that the user can keep entering new animals. */
 }
 
